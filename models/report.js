@@ -14,7 +14,7 @@ let Report = new Schema({
 	targetPercent : String,
 	increaseAmt : String,
 	occurs : [Occur],
-	dateRecorded : {type: Date, default: Date.now}
+	dateRecorded : String
 });
 
 module.exports = Report = mongoose.model('Report', Report);

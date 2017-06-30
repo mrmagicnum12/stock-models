@@ -5,9 +5,8 @@ const Schema = mongoose.Schema;
 
 let StockAnalyze = new Schema({
 	ticker : String,
-	last : String,
-	percentage : String,
-	dateAdded : {type: Date, default: Date.now}
+	last : Number,
+	timeStamp : Date
 })
 
 module.exports = StockAnalyze = mongoose.model('StockAnalyze', StockAnalyze);

@@ -3,19 +3,12 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-let Report = new Schema({
-	ticker : String,
-	low : Number,
-	high : Number,
-	average : Number
-})
-
 let StockAnalyzeReport = new Schema({
 	analyticType : String,
 	type: String,
 	hour: Number,
 	day: String,
-	report: [Report],
+	price: Number,
 	dateRecorded: {type:Date, default: Date.now}
 })
 

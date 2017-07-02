@@ -5,6 +5,7 @@ const Schema = mongoose.Schema;
 
 let StockAnalyzeReport = new Schema({
 	analyticType : String,
+	ticker: String,
 	type: String,
 	hour: Number,
 	day: String,

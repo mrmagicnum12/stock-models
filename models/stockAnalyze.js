@@ -6,7 +6,7 @@ const Schema = mongoose.Schema;
 let StockAnalyze = new Schema({
 	ticker : String,
 	last : {type : Number, index : true},
-	timeStamp : Date
+	timeStamp : {type : Date, default: Date.now}
 })
 .index({last:1})
 

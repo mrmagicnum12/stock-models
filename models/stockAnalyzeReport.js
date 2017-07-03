@@ -10,6 +10,7 @@ let StockAnalyzeReport = new Schema({
 	hour: Number,
 	day: String,
 	price: Number,
+	volume: Number,
 	dateRecorded: {type:Date, default: Date.now}
 })
 

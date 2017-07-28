@@ -7,7 +7,10 @@ let Stock = new Schema({
 	ticker : String,
 	high : String,
 	low : String,
-	average: String,
+	shares : Number,
+	maxBuyAmt : String,
+	targetProfit : Number,
+	price : String,
 	watch : Boolean
 })
 

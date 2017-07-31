@@ -11,6 +11,7 @@ let Stock = new Schema({
 	maxBuyAmt : String,
 	targetProfit : Number,
 	price : String,
+	companyName : String,
 	watch : Boolean
 })
 

@@ -6,7 +6,8 @@ var models = {
 	Report: require('./models/report'),
 	RobinHood: require('./models/robinHood'),
 	StockAnalyzeReport: require('./models/stockAnalyzeReport'),
-	BuyStrategy: require('./models/buyStrategy')
+	BuyStrategy: require('./models/buyStrategy'),
+	Sell: require('./models/sell')
 };
 
 module.exports = models;

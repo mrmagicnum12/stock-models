@@ -8,6 +8,8 @@ let BuyStrategy = new Schema({
 	shares : {type: Number, default:0},
 	price : Number,
 	targetSalePrice : Number,
+	low : Number,
+	afterMarketPrice : Number,
 	created : {type : Date, default : Date.now}
 })
 

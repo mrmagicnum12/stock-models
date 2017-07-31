@@ -9,4 +9,4 @@ let Sell = new Schema({
 	ticker : String
 });
 
-module.exports = Position = mongoose.model('Sell', Sell);
+module.exports = Sell = mongoose.model('Sell', Sell);

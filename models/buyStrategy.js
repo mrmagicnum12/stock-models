@@ -10,6 +10,7 @@ let BuyStrategy = new Schema({
 	targetSalePrice : Number,
 	low : Number,
 	afterMarketPrice : Number,
+	runningAverage : Number,
 	created : {type : Date, default : Date.now}
 })
 

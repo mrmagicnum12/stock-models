@@ -8,7 +8,8 @@ var models = {
 	StockAnalyzeReport: require('./models/stockAnalyzeReport'),
 	BuyStrategy: require('./models/buyStrategy'),
 	Sell: require('./models/sell'),
-	Buy: require('./models/buy')
+	Buy: require('./models/buy'),
+	Transaction: require('./models/buy')
 };
 
 module.exports = models;

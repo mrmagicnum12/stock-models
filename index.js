@@ -9,7 +9,7 @@ var models = {
 	BuyStrategy: require('./models/buyStrategy'),
 	Sell: require('./models/sell'),
 	Buy: require('./models/buy'),
-	Transaction: require('./models/buy')
+	Transaction: require('./models/transaction')
 };
 
 module.exports = models;

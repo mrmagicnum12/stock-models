@@ -7,6 +7,7 @@ let Sell = new Schema({
 	created_at : String,
 	id : String,
 	ticker : String,
+	price : String,
 	strategy : {type : Schema.Types.ObjectId, ref : 'BuyStrategy'}
 });
 
